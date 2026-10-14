@@ -11,7 +11,7 @@ namespace Tyuiu.YampolskyMO.Sprint2.Task6.V15.Test
         {
             DataService ds = new DataService();
             int k = 1;
-            string wait = "понедельник";
+            string wait = "Понедельник";
             string res = ds.FindDayName(k);
             Assert.AreEqual(wait, res);
         }
